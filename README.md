@@ -14,6 +14,9 @@ https://github.com/yifeizhangcs/XAIdataset.github.io
 
 Language:
 
+多任务基准：
+论文标题：REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once 
+论文链接：https://arxiv.org/abs/2507.10541
 
 
 Code:
