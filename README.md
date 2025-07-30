@@ -4,10 +4,11 @@ This repository collects useful benchmarks for evaluating AI models. The list be
 
 ## Vision–Language
 
-1. **Saliency-Bench: A Comprehensive Benchmark for Evaluating Visual Explanations**  
-   Paper: <https://arxiv.org/abs/2310.08537>  
-   Project: <https://github.com/yifeizhangcs/XAIdataset.github.io>  
-   Data: <https://xaidataset.github.io/dataset/>  
+1. **Saliency-Bench: A Comprehensive Benchmark for Evaluating Visual Explanations**
+   Paper: <https://arxiv.org/abs/2310.08537>
+   Project: <https://github.com/yifeizhangcs/XAIdataset.github.io>
+   Data: <https://xaidataset.github.io/dataset/>
+   A benchmark covering eight datasets for evaluating visual explanations.
    Features:
    - Covers eight datasets spanning tasks such as gender classification, environment recognition, cancer diagnosis and action recognition.
    - Provides a unified evaluation pipeline with reproducible metrics.
@@ -20,6 +21,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
    Leaderboard: <https://99franklin.github.io/ocrbench_v2/>
    Code: <https://github.com/Yuliang-Liu/MultimodalOCR>
    Data: <https://huggingface.co/datasets/ling99/OCRBench_v2>
+   Benchmark for OCR localization and reasoning tasks.
    Features:
    - Focuses on text localization and reasoning tasks in complex documents.
    - Provides a public leaderboard for standardized comparison.
@@ -37,6 +39,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
    Paper: <https://arxiv.org/pdf/2505.17163>
    Code: <https://github.com/SCUT-DLVCLab/OCR-Reasoning>
    Project page: <https://ocr-reasoning.github.io/>
+   Benchmark pairing OCR with complex reasoning tasks.
    Features:
    - Combines optical character recognition with downstream reasoning tasks.
    - Provides open-source implementations and datasets.
@@ -64,6 +67,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
    Paper: <https://arxiv.org/abs/2505.21500>
    Project: <https://zju-real.github.io/ViewSpatial-Page>
    GitHub: <https://github.com/ZJU-REAL/ViewSpatial-Bench>
+   Benchmark for evaluating viewpoint-conditioned spatial understanding.
    Features:
    - Tests viewpoint reasoning and spatial awareness.
    - Provides code for dataset generation and evaluation.
@@ -104,6 +108,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
    Paper: <https://arxiv.org/pdf/2506.21085v1>
    Project: <https://github.com/PoloWitty/CovDocker>
    Data: <https://doi.org/10.5281/zenodo.12805810>
+   Benchmark for covalent docking tasks in drug discovery.
    Features:
    - Provides docking tasks focused on covalent drug design.
    - Includes solution scripts for reproducible baselines.
@@ -177,6 +182,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
 
 1. **REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once**
    Paper: <https://arxiv.org/abs/2507.10541>
+   Stress-test benchmark posing several questions in a single prompt.
    Features:
    - Presents multiple problems in a single prompt to test model compositionality.
    - Focuses on robust reasoning under increased cognitive load.
@@ -234,6 +240,7 @@ This repository collects useful benchmarks for evaluating AI models. The list be
 7. **Operations Research Question Answering (ORQA)**
    Dataset: <https://github.com/nl4opt/ORQA>
    Paper: <https://arxiv.org/pdf/2412.17874>
+   Operations research QA benchmark for optimization scenarios.
    Features:
    - Focuses on operations research and optimization topics.
    - Provides question answering tasks with detailed solutions.
@@ -248,7 +255,6 @@ This repository collects useful benchmarks for evaluating AI models. The list be
    - Includes evaluation scripts for logical form accuracy.
    - Dataset publicly hosted on GitHub.
 
-Original link: <https://www.yuque.com/u21774036/qnmlr1/ilxxsoh26grbafe4>
 
 ## Code Benchmarks
 
@@ -284,6 +290,7 @@ Original link: <https://www.yuque.com/u21774036/qnmlr1/ilxxsoh26grbafe4>
 
 2. **BrowseComp**
    <https://openai.com/index/browsecomp/>
+   Benchmark where agents browse the web to complete tasks.
    Features:
    - Tasks require web navigation and information extraction.
    - Dataset not publicly released.
